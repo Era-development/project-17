@@ -41,7 +41,7 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1490px;
+  max-width: 1360px;
   margin: 0 auto;
 }
 
@@ -134,17 +134,17 @@ img {
 .banner {
   position: relative;
   background-image: url(../images/banner/banner.jpg);
-  min-height: 1189px;
-  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 90px;
+  background-position: center;
+  padding-top: 85px;
+  min-height: 949px;
 }
 
 .banner::after {
   content: '';
-  height: 208px;
   position: absolute;
+  height: 208px;
   bottom: 0;
   width: 100%;
   background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%,#fff 83%);
@@ -226,10 +226,40 @@ img {
   background: linear-gradient(90deg, #2af598 0%, #009efd 100%);
 }
 
-.a span {
-  display: block;
+.service {
+  margin-top: 95px;
 }
 
+.service-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.service-text {
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.service-text h3 {
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 38px;
+  color:#081323;
+}
+
+.service-text span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #828282;
+}
+
+.service-price {
+   margin-top: 145px;
+}
 
 
 .banner-description {
